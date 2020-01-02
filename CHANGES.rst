@@ -7,6 +7,12 @@ Changes
 - Nothing changed yet.
 
 
+2.1+zodb (2020-01-02)
+---------------------
+
+- Switch from ZODB3 to ZODB
+
+
 2.1 (2019-12-02)
 ----------------
 

@@ -8,7 +8,7 @@ def read(*names):
 
 setup(
     name='gocept.runner',
-    version='2.2.dev0',
+    version='2.1+zodb',
     description="Create stand alone programs with full Zope3 runtime"
                 " environment",
     long_description="\n\n".join([
@@ -47,7 +47,7 @@ setup(
     zip_safe=False,
     namespace_packages=['gocept'],
     install_requires=[
-        'ZODB3',
+        'ZODB',
         'decorator',
         'setuptools',
         'transaction',
